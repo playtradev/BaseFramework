@@ -103,6 +103,22 @@ namespace GameAnalyticsSDK.Events
             }
         }
 
+		public void YesNo(bool v)
+        {
+            if (GameAnalytics.SettingsGA != null)
+            {
+                if (v)
+                {
+                    GameAnalytics.NewDesignEvent("Design:FeedbackYes", 1);
+                }
+                else
+                {
+                    GameAnalytics.NewDesignEvent("Design:FeedbackNo", 1);
+                }
+
+            }
+        }
+
         public void CheckCriticalFPS()
         {
             //critical FPS

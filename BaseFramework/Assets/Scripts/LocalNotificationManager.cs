@@ -82,7 +82,7 @@ public class LocalNotificationManager : MonoBehaviour
 		var notification = new iOSNotification
 		{
 			Body = text,
-			ForegroundPresentationOption = PresentationOption.Alert,
+			ForegroundPresentationOption = PresentationOption.NotificationPresentationOptionAlert,
 			Trigger = timeTrigger
 		};
 

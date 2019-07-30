@@ -28,9 +28,4 @@ MonoBehaviour:
     - False
     - -1
     - False
-  AndroidNotificationEditorSettingsValues:
-    keys:
-    - UnityNotificationAndroidRescheduleOnDeviceRestart
-    values:
-    - False
   TrackedResourceAssets: []
